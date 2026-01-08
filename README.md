@@ -62,10 +62,11 @@ end-to-end-ml-pipeline/
 ├── main.py                 # Entry point to run the full pipeline
 ├── requirements.txt        # Project dependencies
 └── README.md               # Project documentation
+```
 ## 🧪 Requirements
 
 This project uses Python 3.9+ and standard data science libraries.
-```
+
 ### Install Dependencies
 ```bash
 pip install -r requirements.txt
@@ -106,12 +107,13 @@ The following artifacts are generated automatically during evaluation:
 - Metrics summary (`metrics.csv`)  
 
 All evaluation outputs are stored in:
+```text
 results/
 ├── metrics.csv
 └── figures/
     ├── confusion_matrix.png
     └── roc_curve.png
-
+```
 ---
 
 ## 🧰 Workflow & Tooling
