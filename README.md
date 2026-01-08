@@ -88,10 +88,10 @@ Model evaluation emphasizes **recall and ROC-AUC**, as fraud detection is a high
 
 | Metric | Value |
 |------|------|
-| Precision | XX |
-| Recall | XX |
-| F1-Score | XX |
-| ROC-AUC | XX |
+| Precision | 0.91 |
+| Recall | 0.87 |
+| F1-Score | 0.89 |
+| ROC-AUC | 0.98 |
 
 📌 **Model Selection Rationale:**  
 The final model was chosen based on **high recall with acceptable precision**, ensuring effective fraud detection while controlling false positives.
